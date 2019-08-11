@@ -1,4 +1,4 @@
-INTRODUCTION/BUsiness PROBLEM
+INTRODUCTION/BUSINESS PROBLEM
 When someone needs relocation to a new city, a common concern is how to choose the right neighborhood. Of course, pricing is always a key parameter, as much for buying as for renting. But the neighborhood itself is also important, taking in consideration what kind of places are available in the nearby (like restaurants, shops, cinemas, ...), but also other facilities like transportation, parks, schools, libraries, hospitals, etc.
 
 But every person has usually different needs, depending on age, hobbies, family, work place, so the 'best' neighborhood could be really different. The data problem is how to select or recommend a specific neighborhood for someone who is moving to a new city, according to some preferences, which is actually a realistic scenario for a real state business.
