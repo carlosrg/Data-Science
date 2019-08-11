@@ -1,0 +1,37 @@
+INTRODUCTION/BUsiness PROBLEM
+When someone needs relocation to a new city, a common concern is how to choose the right neighborhood. Of course, pricing is always a key parameter, as much for buying as for renting. But the neighborhood itself is also important, taking in consideration what kind of places are available in the nearby (like restaurants, shops, cinemas, ...), but also other facilities like transportation, parks, schools, libraries, hospitals, etc.
+
+But every person has usually different needs, depending on age, hobbies, family, work place, so the 'best' neighborhood could be really different. The data problem is how to select or recommend a specific neighborhood for someone who is moving to a new city, according to some preferences, which is actually a realistic scenario for a real state business.
+
+Different profiles could be even be prepared in advanced, to have an ordered list of recommended neighborhoods based on a calculated score.
+
+
+SOURCE DATA
+The main data source to classify the neighborhoods limits should be the administrative division. To ensure complete availability, the known and previously used 'New York City Neighborhoods' file is the chosen one. This information is offered from the New York (City) Department of City Planning, and can be retrieved from the NYU Spatial data Repository.
+
+Also from the Department of City Planning, a 'City Planning Facilities Database' can be useful. The file can be downloaded  for the web page 'BYTES of the BIG APPLE™', and includes many public facilities, already aligned with the previous administrative division, according to the following main categories:
+- Health and Human Services
+- Education, Child Welfare, and Youth
+- Parks, Gardens, and Historical Sites
+- Libraries and Cultural Programs
+- Public Safety, Emergency Services, and Administration of Justice
+- Core Infrastructure and Transportation
+- Administration of Government
+
+However, most of the listed categories are already available in the Foursquare classification. Apart of including also leisure venues, using Foursquare API instead of a static list could help us to filter data to include only working and/or trending places or even to use also the customer tastes. In any of the cases, the city facilities database will be used only if enrichment is required for a specific, missing type of service.
+
+The lookup to create the base Dataframe will be performed by calling the search or trending Foursquare regular API endpoints for every one of the New York neighborhoods. Later, the overall information will be processed to filter and score the neighborhoods according to some preferences parameters, to finally make a final sound recommendation.
+
+Some examples of these parameters could be age (using several ranges), marital status, children (young or teenagers), restaurant or cinema-lover, having a dog, need of public transportation, etc.
+
+METHODOLOGY
+-- No contents yet
+
+RESULTS
+-- No contents yet
+
+DISCUSSION
+-- No contents yet
+
+CONCLUSION
+-- No contents yet
